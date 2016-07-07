@@ -1,0 +1,4 @@
+font=/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf
+subfont-text-scale = "2"
+subfont-blur = "4"
+subfont-outline = "4"
