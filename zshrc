@@ -144,7 +144,7 @@ alias re="vagrant reload"
 #########################
 alias ytdl="youtube-dl --external-downloader aria2c --external-downloader-args \"-x16 -s20 -k1M\""
 
-
+alias techfreak="ssh mbtamuli@www.techfreak.ga -p 443"
 
 source /usr/local/bin/z.sh
 
