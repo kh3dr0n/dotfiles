@@ -129,6 +129,7 @@ alias tmux="tmux -u new -s$USER"
 alias create_ap="cd ~/.create_ap && sudo ./create_ap --driver nl80211 wlxc46e1f189960 wlo1 lalala wifi1234"
 alias mplayer="mplayer -msgcolor -msgmodule -nolirc"
 
+
 #########################
 ##      Vagrant       ###
 #########################
@@ -137,6 +138,13 @@ alias down="vagrant halt"
 alias des="vagrant destroy"
 alias vssh="vagrant ssh"
 alias re="vagrant reload"
+
+#########################
+##      Youtube-DL    ###
+#########################
+alias ytdl="youtube-dl --external-downloader aria2c --external-downloader-args \"-x16 -s20 -k1M\""
+
+
 
 source /usr/local/bin/z.sh
 
