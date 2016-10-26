@@ -118,7 +118,10 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias h="unset HISTFILE"
 alias allupdate="sudo apt-get update && sudo apt-fast upgrade -y && sudo apt-fast dist-upgrade -y"
-alias spaste="curl -F 'sprunge=<-' http://sprunge.us"
+function_sp () {
+    curl -F "sprunge=@${1:--}" http://sprunge.us
+}
+alias spaste=function_sp
 alias bshell="ssh -p 443 mbtamuli12@ssh.blinkenshell.org"
 alias afi="sudo apt-fast -y install"
 alias ppa="sudo add-apt-repository -y"
